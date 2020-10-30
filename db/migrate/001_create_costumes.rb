@@ -4,6 +4,7 @@ class CreateCostumes < ActiveRecord:Migration
     x.string :name
     x.integer :price
     x.string :image_url
+    x.string :size
 end
 # By convention, the class name should match the part of the
 # file name after the number, so in this case:
